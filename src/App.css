@@ -20,3 +20,17 @@
   justify-content: center;
   align-items: center;
 }
+.form-select{
+  width: 250px;
+}
+.inputCont{
+    width: 600px;
+    height: 300px;
+    padding: 40px;
+    border: 2px solid #dee2e6;
+    margin: 26px 39px;
+    border-radius: 4px;
+}
+.inputCont:hover{
+  border-color: #1976d2;;
+}
