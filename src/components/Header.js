@@ -9,7 +9,7 @@ import logo from '../logo.svg'
 import '../App.css'
 
 export default function Header(props) {
-	const [select, setSelect] = useState('selectProgram');
+	const [select, setSelect] = useState('3');
 	const handleChange = (event) => {
 		setSelect(event.target.value);
 		props.remote(event.target.value)

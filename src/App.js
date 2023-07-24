@@ -3,6 +3,7 @@ import Header from './components/Header.js'
 import Palindrom from './components/Palindrom.js';
 import Counter from './components/Counter.js';
 import { useState } from 'react';
+import Multiple from './components/MultipleOf';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
 						return (<Palindrom />)
 					} else if(active === 2){
 						return(<Counter />)
+					}else if(active === 3){
+						return(<Multiple />)
 					}
 				})()
 			}
